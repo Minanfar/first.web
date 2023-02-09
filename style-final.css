@@ -1,0 +1,238 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+}
+
+/* <---------menu-------> */
+
+nav {
+  /* border: 2px solid black; */
+  border-radius: 20px;
+  display: flex;
+  /* position: fixed; */
+  background-color: rgb(245, 171, 184);
+  width: fit-content;
+  position: fixed;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+  display: inline;
+  margin: 30px;
+  font-size: 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+ul li a:hover {
+  color: rgb(162, 11, 107);
+  text-shadow: 3px 3px 5px;
+}
+
+/* <---------Service-------> */
+
+p {
+  font-size: 20px;
+}
+
+.part-one {
+  /* border: 1px solid black; */
+  background: rgb(242, 229, 235);
+  background: radial-gradient(
+    circle,
+    rgba(242, 229, 235, 1) 26%,
+    rgba(242, 171, 194, 0.8016456582633054) 90%
+  );
+  border-radius: 20px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 150px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 80px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-bottom: 100px;
+}
+
+.small-box {
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(72, 72, 72);
+  font-size: 30px;
+  font-weight: light;
+  /* border: 1px solid black; */
+  padding: 0px 20px;
+  background-color: rgb(189, 227, 240);
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px;
+}
+
+.part-two {
+  /* border: 2px solid black; */
+  /* background-color: rgb(216, 234, 239);
+  border-radius: 20px; */
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: space-around;
+}
+
+.card {
+  /* border: 2px solid red; */
+  width: 300px;
+  background: rgb(251, 251, 251);
+  background: linear-gradient(
+    180deg,
+    rgba(251, 251, 251, 1) 27%,
+    rgba(169, 221, 240, 0.8016456582633054) 75%
+  );
+  border-radius: 30px 30px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+.service {
+  text-decoration-style: double;
+  display: flex;
+  font-size: 50px;
+  justify-content: left;
+  margin-left: 50px;
+}
+
+div img {
+  width: 300px;
+  border-radius: 30px 30px 0 0;
+}
+
+/* <---------uber-uns-------> */
+
+.card {
+  font-size: 26px;
+  text-align: left;
+}
+
+p {
+  margin: 10px;
+  justify-content: center;
+}
+
+.über-uns-inhalt {
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: justify;
+}
+
+.girl img {
+  /* border: 2px solid red;
+width: fit-content; */
+  border-radius: 50%;
+  margin-right: 250px;
+  margin-top: 100px;
+  box-shadow: 5px 5px 5px rgb(150, 204, 240);
+}
+
+.kards {
+  display: flex;
+  margin: 0 80px;
+}
+
+.kard a {
+  text-decoration: none;
+  color: black;
+}
+
+.aboutme {
+  /* border: 1px solid red; */
+  width: 400px;
+  width: 60%;
+  display: flex;
+}
+
+/* <---- colage-----> */
+
+.colage img {
+  height: 400px;
+  align-items: center;
+  margin: auto;
+  padding-top: 100px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+
+/* <---- footer-----> */
+
+footer {
+  /* border: 1px solid black; */
+  background: rgb(242, 229, 235);
+  background: radial-gradient(
+    circle,
+    rgba(242, 229, 235, 1) 48%,
+    rgba(171, 232, 242, 0.8016456582633054) 82%
+  );
+  height: 500px;
+  margin-top: 100px;
+  border-radius: 20px;
+  color: rgb(70, 2, 58);
+  text-align: center;
+  color: rgb(34, 0, 255);
+}
+
+.icons {
+  color: rgb(34, 0, 255);
+  height: 100%;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: space-around;
+}
+
+.box {
+  font-size: 20px;
+  text-align: left;
+}
+
+.box-p {
+  font-size: 15px;
+  font-weight: lighter;
+  text-align: left;
+  padding: 0;
+}
+
+/* <---- under-footer-----> */
+
+video {
+  justify-content: center;
+  border: 10px solid rgb(221, 172, 188);
+  width: fit-content;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px rgb(147, 192, 233);
+  margin-top: 20px;
+}
+
+.copyright {
+  height: 50px;
+  text-align: center;
+  align-items: center;
+}
